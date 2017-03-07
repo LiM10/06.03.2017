@@ -1,0 +1,40 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.clock{
+	width: 53%;
+	height: 100%;
+	margin: 0 auto;
+	background-image: url(../images/clock.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hand{
+	width: 0.8%;
+    border-radius: 100% 100% 0px 0px;
+    bottom: 250px;
+	left: 253px;
+    background-color: black;
+    position: absolute;
+
+}
+#sec{
+    height: 30%;
+}
+#min{
+    height: 25%;
+}
+#hour{
+    height: 20%;
+
+}
